@@ -1,0 +1,136 @@
+.banner{
+    position: relative;
+    background-image: url(https://img.freepik.com/premium-photo/model-being-covered-by-shopping-bags-copy-space_23-2148674119.jpg?w=2000);
+
+    
+    
+    background-size: cover;
+    width:100%;
+    height:90vh;
+    
+}
+.banner-text{
+    position: absolute;
+    top:150px;
+    left:90px;
+}
+.banner-text h1{
+    letter-spacing: 10px;
+    font-size: 40px;
+}
+.banner-text h2{
+    letter-spacing: 5px;
+}
+.banner-text h3{
+    letter-spacing: 5px;
+}
+.banner-text h4{
+    letter-spacing: 5px;
+}
+.container1{
+    width:100%;
+    height:50px;
+}
+
+@media(max-width:2000px)
+{
+    .banner{
+        position: relative;
+        background-image: url(https://img.freepik.com/premium-photo/model-being-covered-by-shopping-bags-copy-space_23-2148674119.jpg?w=2000);
+        width:100%;
+        height:75vh;
+        background-size: cover;
+        background-position: 100%;
+        border-radius: 10px;
+
+        /* margin-top: 50px; */
+        
+        
+    }
+    .banner-text{
+        position: absolute;
+        top:50px;
+        left:90px;
+        font-weight: bolder;
+        color:rgb(16, 13, 3);
+        
+    }
+    
+    .banner-text{
+        position: absolute;
+        top:150px;
+        left:90px;
+    }
+    .banner-text h1{
+        letter-spacing: 10px;
+        
+        
+    }
+    .banner-text h2{
+        letter-spacing: 5px;
+        font-weight:bold;
+        
+    }
+    .banner-text h3{
+        letter-spacing: 5px;
+        font-weight:bold;
+        
+    }
+    .banner-text h4{
+        letter-spacing: 5px;
+        font-weight:bold;
+        
+    }
+}
+
+
+
+}
+
+@media(max-width:360px)
+{
+    .banner{
+        position: relative;
+        background-image: url(https://img.freepik.com/premium-photo/model-being-covered-by-shopping-bags-copy-space_23-2148674119.jpg?w=2000);
+        width:100%;
+        height:70vh;
+        background-size: cover;
+        background-position: 100%;
+        border-radius: 10px;
+        /* margin-top: 50px; */
+        
+        
+    }
+    .banner-text{
+        position: absolute;
+        font-size: smaller;
+        top:50px;
+        left:10px;
+
+        color:cornsilk;
+        
+    }
+    .banner-text{
+        position: absolute;
+        top:150px;
+        left:90px;
+    }
+    .banner-text h1{
+        letter-spacing: 10px;
+        
+    }
+    .banner-text h2{
+        letter-spacing: 5px;
+        
+        font-weight: bold;
+    }
+    .banner-text h3{
+        letter-spacing: 5px;
+        
+    }
+    .banner-text h4{
+        letter-spacing: 5px;
+        
+    }
+}
+
